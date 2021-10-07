@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: auto;
+  font-weight: bold;
+}
+
+.content {
+  border-radius: 2rem;
+  background-color: rgb(91, 19, 193);
+  height: 550px;
+  margin: auto;
+}
+
+.sol {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text-content {
+  color: white;
+  font-size: 4.5rem;
+  line-height: 550px;
+}
+
+.logo {
+  vertical-align:text-bottom;
+  display: inline-block;
+}
+
+.solana-logo {
+  height: 55px;
+  vertical-align: middle;
+}
+
+.text-header {
+  font-size: 3rem;
+}
+
+.conn-btn {
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+
+.btn-success {
+  background-color: rgb(91, 19, 193) !important;
+}
+
+.btn:focus {
+  outline: gray;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background-color:rgb(228, 46, 82) !important;
+}
