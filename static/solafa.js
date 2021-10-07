@@ -20,7 +20,8 @@ conn_btn.addEventListener("click", (e) => {
   console.log(provider_data);
   window.solana.connect();
   window.solana.on("connect", () => {
-    e.target.innerHTML = "Connected!";
+    let id = window.solana.publicKey.toString();
+    e.target.innerHTML = id;
     // conn_btn = document.querySelector("#conn-btn");
     console.log("connected!");
     console.log(window.solana.publicKey.toString());
